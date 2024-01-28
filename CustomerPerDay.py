@@ -2,7 +2,7 @@
 
 NumCustomers = [] # I created an empty list that will be used for collecting number of customer per day.
 days_of_week = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
-#Created another list which contian days of week. This way for each loop, a different day will be picked.
+#Created another list which contians days of week. This way for each loop, a different day will be picked.
 
 for day in range (0,7):
     NumCustomer = int(input(f"Enter the number of customer for {days_of_week[day]}: "))
